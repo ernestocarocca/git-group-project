@@ -20,3 +20,11 @@ footer p{
     color: var(--main-color);
     padding: 20px;
 }
+
+
+/* Kontakt sida */
+form{
+    background-color: var(--accent-color);
+    color: var(--main-color);
+    padding: 20px;
+}
