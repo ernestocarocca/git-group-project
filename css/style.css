@@ -1,0 +1,10 @@
+:root {
+--main-color: #00401b;
+--accent-color: #FBAD86;
+}
+/* Base */
+
+body {
+    background-color: var(--main-color);
+    color: var(--accent-color);
+}
