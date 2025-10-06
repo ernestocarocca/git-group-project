@@ -82,6 +82,6 @@ footer p{
 /* Kontakt sida */
 form{
     background-color: var(--accent-color);
-    color: var(--main-color);
+    color: var(--primary);
     padding: 20px;
 }
