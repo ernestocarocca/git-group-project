@@ -1,17 +1,7 @@
-* {
-  margin: 0;
-  box-sizing: border-box;
-}
-:root {
---primary: #00401b;
---accent-color: #FBAD86;
- --primary-rgb: 0,64,90;
-
-}
-
-
-body {
-    color: var(--accent-color);
+header p {
+    font-size: 36px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: var(--main-color);
 }
 .hero {
   position: relative;
@@ -66,14 +56,12 @@ body {
     font-weight: bold;
 }
 
-footer{
-    height: 80px;
+.NavBakgrund {
     background-color: var(--accent-color);
-}
-
-footer p{
-    text-align: center;
-    font-size: 23px;
-    color: var(--primary);
-    padding: 20px;
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: flex-start;
 }
