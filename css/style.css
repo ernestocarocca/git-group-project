@@ -11,9 +11,12 @@ body {
 
 footer{
     height: 80px;
-    text-align: center;
-    font-size: 35x;
-    color: var(--main-color);
     background-color: var(--accent-color);
-    border: 2px solid black;
+}
+
+footer p{
+    text-align: center;
+    font-size: 23px;
+    color: var(--main-color);
+    padding: 20px;
 }
