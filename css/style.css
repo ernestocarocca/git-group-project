@@ -12,10 +12,6 @@
 
 body {
     color: var(--accent-color);
-
-
-
-    
 }
 .hero {
   position: relative;
@@ -34,8 +30,8 @@ body {
   inset: 0;
   background: linear-gradient(
     to right,
-    rgba(0, 64, 27, 0.9),   /* mörkgrön ton */
-    rgba(0, 64, 27, 0.7)    /* mer transparent åt höger */
+    rgba(0, 64, 27, 0.9),   
+    rgba(0, 64, 27, 0.7)  
   );
   z-index: 1;
 }
@@ -60,11 +56,7 @@ body {
   margin-bottom: 2rem;
   color: var(--accent-color)
 }
-.buttons {
-  display: flex;
-  gap: 1rem;
 
-}
 .btn{
     background: var(--accent-color);
     color: var(--primary);
@@ -73,6 +65,7 @@ body {
     border-radius: 40px;
     font-weight: bold;
 }
+
 footer{
     height: 80px;
     background-color: var(--accent-color);
