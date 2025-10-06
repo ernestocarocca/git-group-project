@@ -73,3 +73,11 @@ body {
     border-radius: 40px;
     font-weight: bold;
 }
+footer{
+    height: 80px;
+    text-align: center;
+    font-size: 35x;
+    color: var(--main-color);
+    background-color: var(--accent-color);
+    border: 2px solid black;
+}
