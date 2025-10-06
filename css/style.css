@@ -81,13 +81,27 @@ footer p{
 
 /* Kontakt sida */
 .contact {
-    color: var(--primary);
+    color: var(--accent-color);
+    background-color: var(--primary);
+
+    && h1{
+        margin: 20px;
+        text-decoration: underline;
+    }
+}
+
+iframe{
+    position: absolute;
+    right: 52px;
+    top: 50px;
 }
 
 form{
+    margin-top: 60px;
     background-color: var(--primary);
     color: var(--accent-color);
     padding: 20px;
+    height: 70vh;
 }
 
 .contactBt{
