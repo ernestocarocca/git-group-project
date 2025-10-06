@@ -80,8 +80,21 @@ footer p{
 
 
 /* Kontakt sida */
+.contact {
+    color: var(--primary);
+}
+
 form{
+    background-color: var(--primary);
+    color: var(--accent-color);
+    padding: 20px;
+}
+
+.contactBt{
+    border-style: none;
+    border-radius: 5px;
     background-color: var(--accent-color);
     color: var(--primary);
-    padding: 20px;
+    padding: 10px;
+    margin: 5px;
 }
