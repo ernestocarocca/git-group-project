@@ -1,10 +1,75 @@
-:root {
---main-color: #00401b;
---accent-color: #FBAD86;
+* {
+  margin: 0;
+  box-sizing: border-box;
 }
-/* Base */
+:root {
+--primary: #00401b;
+--accent-color: #FBAD86;
+ --primary-rgb: 0,64,90;
+
+}
+
 
 body {
-    background-color: var(--main-color);
     color: var(--accent-color);
+
+
+
+    
+}
+.hero {
+  position: relative;
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../images/istockphoto-2153823097-612x612.jpg");
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to right,
+    rgba(0, 64, 27, 0.9),   /* mörkgrön ton */
+    rgba(0, 64, 27, 0.7)    /* mer transparent åt höger */
+  );
+  z-index: 1;
+}
+
+.hero__content {
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+  text-align: left;
+  padding: 0 1.5rem;
+  animation: fadeSlideUp 1s ease-out;
+}
+
+.hero__content h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.hero__content p {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  color: var(--accent-color)
+}
+.buttons {
+  display: flex;
+  gap: 1rem;
+
+}
+.btn{
+    background: var(--accent-color);
+    color: var(--primary);
+    padding: 10px;
+    border: 1px solid white ;
+    border-radius: 40px;
+    font-weight: bold;
 }
